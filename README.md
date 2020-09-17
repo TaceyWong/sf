@@ -50,39 +50,32 @@ Here's a collection of some of the talks:
 
 **Installation**
 
-Installation through `pip` is recommended::
+Installation through `go get` :
 
-    $ pip install stream-framework
+    $ go get -u github.com/TaceyWong/sf
 
-By default `stream-framework` does not install the required dependencies for redis and cassandra:
+By default `sf` does not install the required dependencies for redis and cassandra:
 
 ***Install stream-framework with Redis dependencies***
 
-    $ pip install stream-framework[redis]
+    $ 需要版本控制
 
 ***Install stream-framework with Cassandra dependencies***
 
-    $ pip install stream-framework[cassandra]
+    $ 需要版本控制
 
 ***Install stream-framework with both Redis and Cassandra dependencies***
 
-    $ pip install stream-framework[redis,cassandra]
+    $ 需要版本控制
 
 
 **Authors & Contributors**
 
- * Thierry Schellenbach ([thierry@getstream.io](mailto:thierry@getstream.io))
- * Tommaso Barbugli ([tommaso@getstream.io](mailto:tommaso@getstream.io))
- * Anislav Atanasov
- * Guyon Morée
+
 
 **Resources**
 
- * [Documentation]
- * [Bug Tracker]
- * [Code]
- * [Travis CI]
- * [Stackoverflow]
+ 
 
 **Example application**
 
